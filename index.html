@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>遠征チームシミュレーター</title>
+    <title>遠征チームシミュレーター (高速軽量版)</title>
     <style>
         body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 20px; }
         .container { max-width: 1000px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
@@ -73,6 +73,7 @@
 
 <script>
     let masterData = [];
+    let buddiesPool = {}; // 高速参照用の共通プール
 
     function initSelectors() {
         const createOptions = (el, min, max, selectedVal) => {
@@ -95,7 +96,11 @@
         msgEl.textContent = "⏳ データを読み込んでいます...";
         try {
             const response = await fetch('expedition_master.json');
-            masterData = await response.json();
+            const parsed = await response.json();
+            
+            masterData = parsed.data;
+            buddiesPool = parsed.pool; // 圧縮プールを展開
+            
             msgEl.textContent = `✅ 読み込み完了: ${masterData.length} 件のベースパターンがあります。`;
         } catch (error) {
             msgEl.textContent = "❌ データの読み込みに失敗しました。";
@@ -138,8 +143,10 @@
                 slotCandidates.push(["__ANY_OTHER_" + slot.slot_id]);
             } else if (slot.buddy) {
                 slotCandidates.push(unownedSet.has(slot.buddy) ? [] : [slot.buddy]);
-            } else if (slot.buddies) {
-                slotCandidates.push(slot.buddies.filter(b => !unownedSet.has(b)));
+            } else if (slot.buddies_id !== undefined) {
+                // プールから名前配列を引いてフィルター
+                let originalList = buddiesPool[slot.buddies_id] || [];
+                slotCandidates.push(originalList.filter(b => !unownedSet.has(b)));
             } else {
                 slotCandidates.push(["__ANY_OTHER_" + slot.slot_id]);
             }
@@ -182,49 +189,54 @@
             if (checkFeasibilityOnly(p.slots, unownedSet)) {
                 validCount++;
                 
-                htmlStr += `
-                    <div class="card">
-                        <h3>
-                            <span>ID: ${p.pattern_id} 【${p.type} / ${p.region}】</span>
-                            <span style="color:#718096; font-size:12px;">ベーススコア: ${p.total_score}</span>
-                        </h3>
-                        <div class="total-stats">補正後合計: [ メラメラ:${currentFinalStats[0]}, ポカポカ:${currentFinalStats[1]}, ウルウル:${currentFinalStats[2]}, アイテム:${currentFinalStats[3]} ]</div>
-                        <ul class="slot-list">
-                `;
-                
-                p.slots.forEach((slot) => {
-                    // 各枠の個別補正値を文字列化 [A, B, C, D]
-                    let statStr = `[${slot.stats.join(',')}]`;
-                    
+                // DOM過剰生成によるブラウザクラッシュ防止（上位1000件でクリップ）
+                if (validCount <= 1000) {
                     htmlStr += `
-                        <li class="slot-item">
-                            <span class="slot-stats">${statStr}</span>
-                            <strong>枠${slot.slot_id}精度 [${slot.type}]:</strong> 
+                        <div class="card">
+                            <h3>
+                                <span>ID: ${p.pattern_id} 【${p.type} / ${p.region}】</span>
+                                <span style="color:#718096; font-size:12px;">ベーススコア: ${p.total_score}</span>
+                            </h3>
+                            <div class="total-stats">補正後合計: [ メラメラ:${currentFinalStats[0]}, ポカポカ:${currentFinalStats[1]}, ウルウル:${currentFinalStats[2]}, アイテム:${currentFinalStats[3]} ]</div>
+                            <ul class="slot-list">
                     `;
                     
-                    if (slot.buddy) {
-                        htmlStr += `<span class="highlight-buddy">${slot.buddy}</span>`;
-                    } else if (slot.buddies) {
-                        let ownedBuddies = slot.buddies.filter(b => !unownedSet.has(b));
-                        ownedBuddies.forEach(b => {
-                            htmlStr += `<span class="buddy-tag">${b}</span>`;
-                        });
-                    } else {
-                        htmlStr += `<span style="color:#a0aec0;">（他地方の誰でも可）</span>`;
-                    }
-                    htmlStr += `</li>`;
-                });
+                    p.slots.forEach((slot) => {
+                        let statStr = `[${slot.stats.join(',')}]`;
+                        htmlStr += `
+                            <li class="slot-item">
+                                <span class="slot-stats">${statStr}</span>
+                                <strong>枠${slot.slot_id} [${slot.type}]:</strong> 
+                        `;
+                        
+                        if (slot.buddy) {
+                            htmlStr += `<span class="highlight-buddy">${slot.buddy}</span>`;
+                        } else if (slot.buddies_id !== undefined) {
+                            let originalList = buddiesPool[slot.buddies_id] || [];
+                            let ownedBuddies = originalList.filter(b => !unownedSet.has(b));
+                            ownedBuddies.forEach(b => {
+                                htmlStr += `<span class="buddy-tag">${b}</span>`;
+                            });
+                        } else {
+                            htmlStr += `<span style="color:#a0aec0;">（他地方の誰でも可）</span>`;
+                        }
+                        htmlStr += `</li>`;
+                    });
 
-                htmlStr += `</ul></div>`;
+                    htmlStr += `</ul></div>`;
+                }
             }
         }
 
-        document.getElementById('status-msg').textContent = `🔍 実現可能な編成（グループ）: ${validCount} 件出力しました。`;
+        document.getElementById('status-msg').textContent = `🔍 実現可能な編成（グループ）: ${validCount} 件検出しました。`;
 
         if (validCount === 0) {
             resultContainer.innerHTML = "<p style='text-align:center;color:#718096;'>条件を満たす手持ちパターンはありません。</p>";
         } else {
             resultContainer.innerHTML = htmlStr;
+            if (validCount > 1000) {
+                resultContainer.innerHTML += `<p style='text-align:center; color:#dd6b20; font-weight:bold; font-size:14px;'>件数が非常に多いため、最初の1,000件のみ表示しています。未所持を追加して絞り込んでください。</p>`;
+            }
         }
         resultContainer.style.display = "block";
     }
