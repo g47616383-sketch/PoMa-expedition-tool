@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遠征チームシミュレーター</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { font-size: 24px; margin-bottom: 25px; text-align: center; color: #2c3e50; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px; }
+        label { display: block; font-weight: bold; margin-bottom: 8px; color: #4a5568; font-size: 14px; }
+        textarea { width: 100%; height: 150px; padding: 10px; border: 1px solid #cbd5e0; border-radius: 6px; resize: vertical; box-sizing: border-box; }
+        select { width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 6px; background-color: #fff; }
+        .stats-inputs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+        .btn-group { display: flex; gap: 15px; margin-bottom: 25px; }
+        button { flex: 1; padding: 12px; font-size: 16px; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
+        .btn-count { background-color: #4a5568; color: #fff; }
+        .btn-count:hover { background-color: #323f4b; }
+        .btn-output { background-color: #3182ce; color: #fff; }
+        .btn-output:hover { background-color: #2b6cb0; }
+        #status-msg { font-size: 18px; font-weight: bold; margin: 20px 0; color: #2d3748; padding: 10px; border-radius: 6px; background: #edf2f7; display: none;}
+        .result-container { max-height: 600px; overflow-y: auto; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: #f7fafc; }
+        .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .card h3 { margin: 0 0 10px 0; font-size: 16px; color: #2b6cb0; display: flex; justify-content: space-between; }
+        .card .total-stats { font-weight: bold; color: #2d3748; margin-bottom: 10px; background: #ebf8ff; padding: 5px 10px; border-radius: 4px; display: inline-block; }
+        .slot-list { margin: 0; padding-left: 20px; font-size: 14px; color: #4a5568; }
+        .slot-item { margin-bottom: 6px; line-height: 1.5; }
+        .slot-stats { font-family: monospace; font-weight: bold; color: #4a5568; background: #e2e8f0; padding: 1px 5px; border-radius: 3px; margin-right: 6px; font-size: 12px; }
+        .buddy-tag { display: inline-block; background: #edf2f7; padding: 2px 6px; border-radius: 4px; margin: 2px; font-size: 13px; color: #2d3748; border: 1px solid #cbd5e0; }
+        .highlight-buddy { color: #dd6b20; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>遠征チーム フィルターツール</h1>
+    
+    <div class="grid">
+        <div>
+            <label for="unowned">持っていないバディーズ名 (改行区切り)</label>
+            <textarea id="unowned" placeholder="例：&#13;リーリエ＆ピッピ&#13;カキ＆ウインディ"></textarea>
+        </div>
+        <div>
+            <label>目標補正値 (A, B, C, D)</label>
+            <div class="stats-inputs">
+                <div><label style="font-size:12px; text-align:center;">A</label><select id="target-a"></select></div>
+                <div><label style="font-size:12px; text-align:center;">B</label><select id="target-b"></select></div>
+                <div><label style="font-size:12px; text-align:center;">C</label><select id="target-c"></select></div>
+                <div><label style="font-size:12px; text-align:center;">D</label><select id="target-d"></select></div>
+            </div>
+            
+            <label style="margin-top: 20px;" for="item-bonus">アイテム補正</label>
+            <select id="item-bonus">
+                <option value="0,0,0,0" selected>無し [0, 0, 0, 0]</option>
+                <option value="2,0,0,0">[2, 0, 0, 0]</option>
+                <option value="0,2,0,0">[0, 2, 0, 0]</option>
+                <option value="0,0,2,0">[0, 0, 2, 0]</option>
+                <option value="0,0,0,2">[0, 0, 0, 2]</option>
+                <option value="1,1,1,1">[1, 1, 1, 1]</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="btn-group">
+        <button class="btn-count" onclick="runCountSearch()">📊 件数検索</button>
+        <button class="btn-output" onclick="runOutputSearch()">🔍 バディーズ組出力</button>
+    </div>
+
+    <div id="status-msg"></div>
+    <div class="result-container" id="results" style="display: none;"></div>
+</div>
+
+<script>
+    let masterData = [];
+
+    function initSelectors() {
+        const createOptions = (el, min, max, selectedVal) => {
+            for(let i=min; i<=max; i++) {
+                let opt = document.createElement('option');
+                opt.value = i; opt.textContent = i;
+                if(i === selectedVal) opt.selected = true;
+                el.appendChild(opt);
+            }
+        };
+        createOptions(document.getElementById('target-a'), 0, 10, 10);
+        createOptions(document.getElementById('target-b'), 0, 10, 0);
+        createOptions(document.getElementById('target-c'), 0, 10, 0);
+        createOptions(document.getElementById('target-d'), 7, 10, 10);
+    }
+
+    async function loadJson() {
+        const msgEl = document.getElementById('status-msg');
+        msgEl.style.display = "block";
+        msgEl.textContent = "⏳ データを読み込んでいます...";
+        try {
+            const response = await fetch('expedition_master.json');
+            masterData = await response.json();
+            msgEl.textContent = `✅ 読み込み完了: ${masterData.length} 件のベースパターンがあります。`;
+        } catch (error) {
+            msgEl.textContent = "❌ データの読み込みに失敗しました。";
+            console.error(error);
+        }
+    }
+
+    function getFilterInputs() {
+        const unownedText = document.getElementById('unowned').value;
+        const unownedSet = new Set(unownedText.split('\n').map(s => s.trim()).filter(s => s.length > 0));
+        const target = [
+            parseInt(document.getElementById('target-a').value),
+            parseInt(document.getElementById('target-b').value),
+            parseInt(document.getElementById('target-c').value),
+            parseInt(document.getElementById('target-d').value)
+        ];
+        const itemBonus = document.getElementById('item-bonus').value.split(',').map(Number);
+        return { unownedSet, target, itemBonus };
+    }
+
+    function runCountSearch() {
+        if (masterData.length === 0) return alert("データが読み込まれていません。");
+        const { target, itemBonus } = getFilterInputs();
+        let matchCount = 0;
+        for (let p of masterData) {
+            let ok = true;
+            for (let i = 0; i < 4; i++) {
+                if (Math.min(10, p.total_stats[i] + itemBonus[i]) < target[i]) { ok = false; break; }
+            }
+            if (ok) matchCount++;
+        }
+        document.getElementById('status-msg').textContent = `📊 補正値クリア: ${matchCount} 組見つかりました。`;
+        document.getElementById('results').style.display = "none";
+    }
+
+    function checkFeasibilityOnly(slots, unownedSet) {
+        let slotCandidates = [];
+        for (let slot of slots) {
+            if (slot.type === "他地方固定") {
+                slotCandidates.push(["__ANY_OTHER_" + slot.slot_id]);
+            } else if (slot.buddy) {
+                slotCandidates.push(unownedSet.has(slot.buddy) ? [] : [slot.buddy]);
+            } else if (slot.buddies) {
+                slotCandidates.push(slot.buddies.filter(b => !unownedSet.has(b)));
+            } else {
+                slotCandidates.push(["__ANY_OTHER_" + slot.slot_id]);
+            }
+        }
+
+        let chosen = new Set();
+        function dfs(slotIdx) {
+            if (slotIdx === 6) return true;
+            for (let cand of slotCandidates[slotIdx]) {
+                if (!chosen.has(cand)) {
+                    chosen.add(cand);
+                    if (dfs(slotIdx + 1)) return true;
+                    chosen.delete(cand);
+                }
+            }
+            return false;
+        }
+        return dfs(0);
+    }
+
+    function runOutputSearch() {
+        if (masterData.length === 0) return alert("データが読み込まれていません。");
+        const { unownedSet, target, itemBonus } = getFilterInputs();
+        const resultContainer = document.getElementById('results');
+        resultContainer.innerHTML = "";
+        
+        let validCount = 0;
+        let htmlStr = "";
+        
+        for (let p of masterData) {
+            let statOk = true;
+            let currentFinalStats = [];
+            for (let i = 0; i < 4; i++) {
+                let finalStat = Math.min(10, p.total_stats[i] + itemBonus[i]);
+                if (finalStat < target[i]) { statOk = false; break; }
+                currentFinalStats.push(finalStat);
+            }
+            if (!statOk) continue;
+
+            if (checkFeasibilityOnly(p.slots, unownedSet)) {
+                validCount++;
+                
+                htmlStr += `
+                    <div class="card">
+                        <h3>
+                            <span>ID: ${p.pattern_id} 【${p.type} / ${p.region}】</span>
+                            <span style="color:#718096; font-size:12px;">ベーススコア: ${p.total_score}</span>
+                        </h3>
+                        <div class="total-stats">補正後合計: [ メラメラ:${currentFinalStats[0]}, ポカポカ:${currentFinalStats[1]}, ウルウル:${currentFinalStats[2]}, アイテム:${currentFinalStats[3]} ]</div>
+                        <ul class="slot-list">
+                `;
+                
+                p.slots.forEach((slot) => {
+                    // 各枠の個別補正値を文字列化 [A, B, C, D]
+                    let statStr = `[${slot.stats.join(',')}]`;
+                    
+                    htmlStr += `
+                        <li class="slot-item">
+                            <span class="slot-stats">${statStr}</span>
+                            <strong>枠${slot.slot_id}精度 [${slot.type}]:</strong> 
+                    `;
+                    
+                    if (slot.buddy) {
+                        htmlStr += `<span class="highlight-buddy">${slot.buddy}</span>`;
+                    } else if (slot.buddies) {
+                        let ownedBuddies = slot.buddies.filter(b => !unownedSet.has(b));
+                        ownedBuddies.forEach(b => {
+                            htmlStr += `<span class="buddy-tag">${b}</span>`;
+                        });
+                    } else {
+                        htmlStr += `<span style="color:#a0aec0;">（他地方の誰でも可）</span>`;
+                    }
+                    htmlStr += `</li>`;
+                });
+
+                htmlStr += `</ul></div>`;
+            }
+        }
+
+        document.getElementById('status-msg').textContent = `🔍 実現可能な編成（グループ）: ${validCount} 件出力しました。`;
+
+        if (validCount === 0) {
+            resultContainer.innerHTML = "<p style='text-align:center;color:#718096;'>条件を満たす手持ちパターンはありません。</p>";
+        } else {
+            resultContainer.innerHTML = htmlStr;
+        }
+        resultContainer.style.display = "block";
+    }
+
+    window.onload = () => { initSelectors(); loadJson(); };
+</script>
+</body>
+</html>
