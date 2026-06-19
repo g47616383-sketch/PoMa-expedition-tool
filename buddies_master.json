@@ -1,0 +1,6614 @@
+{
+  "variable": [
+    {
+      "name": "マジコスクリス＆スイクン",
+      "region": "ジョウト",
+      "calc_type": "flat_4_if_3",
+      "target": "c"
+    },
+    {
+      "name": "グリーン（アナザー）＆プテラ",
+      "region": "カントー",
+      "calc_type": "flat_4_if_3",
+      "target": "a"
+    },
+    {
+      "name": "トウヤ＆ダイケンキ",
+      "region": "イッシュ",
+      "calc_type": "scale_by_x",
+      "target": "c"
+    },
+    {
+      "name": "マジコスリーフ＆フシギバナ",
+      "region": "カントー",
+      "calc_type": "scale_by_x",
+      "target": "b"
+    },
+    {
+      "name": "シロナ＆ガブリアス",
+      "region": "シンオウ",
+      "calc_type": "item_2_if_3",
+      "target": "d"
+    },
+    {
+      "name": "ダイゴ＆メタグロス",
+      "region": "ホウエン",
+      "calc_type": "scale_by_x",
+      "target": "a"
+    },
+    {
+      "name": "セレナ＆マフォクシー",
+      "region": "カロス",
+      "calc_type": "flat_4_if_3",
+      "target": "b"
+    },
+    {
+      "name": "マツバ＆フワライド",
+      "region": "ジョウト",
+      "calc_type": "scale_by_x",
+      "target": "a"
+    },
+    {
+      "name": "リーリエ＆ピッピ",
+      "region": "アローラ",
+      "calc_type": "flat_4_if_3",
+      "target": "c"
+    },
+    {
+      "name": "キョウヘイ＆ウォーグル",
+      "region": "イッシュ",
+      "calc_type": "flat_4_if_3",
+      "target": "a"
+    },
+    {
+      "name": "ユウリ＆ザシアン",
+      "region": "ガラル",
+      "calc_type": "item_2_if_3",
+      "target": "d"
+    },
+    {
+      "name": "ハルカ＆ラグラージ",
+      "region": "ホウエン",
+      "calc_type": "flat_4_if_3",
+      "target": "b"
+    },
+    {
+      "name": "プラターヌ＆ゼルネアス",
+      "region": "カロス",
+      "calc_type": "scale_by_x",
+      "target": "c"
+    },
+    {
+      "name": "ミヅキ＆ジュナイパー",
+      "region": "アローラ",
+      "calc_type": "scale_by_x",
+      "target": "a"
+    },
+    {
+      "name": "ソニア＆ワンパチ",
+      "region": "ガラル",
+      "calc_type": "scale_by_x",
+      "target": "c"
+    },
+    {
+      "name": "コウキ＆ディアルガ",
+      "region": "シンオウ",
+      "calc_type": "scale_by_x",
+      "target": "b"
+    }
+  ],
+  "immutable": [
+    {
+      "name": "タケシ＆イワーク",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスタケシ＆バンギラス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "タケシ＆カブトプス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アルコスタケシ＆イワーク",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カスミ＆スターミー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カスミ（アナザー）＆コダック",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスカスミ＆シャワーズ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "アルコスカスミ＆スターミー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カスミ＆ゴルダック",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マチス＆マルマイン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マチス＆ライチュウ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "エリカ＆ラフレシア",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "エリカ（２０シーズン）＆キュワワー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "エリカ＆モンジャラ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスエリカ＆リーフィア",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "エリカ（２５シーズン）＆ラランテス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カツラ＆ギャロップ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カンナ＆ラプラス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カンナ＆パルシェン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "シバ＆カイリキー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "シバ＆イワーク",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "キクコ＆ゲンガー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "キクコ＆アーボック",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "クリス＆オーダイル",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "クリス＆サンダース",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "クリス（アカデミー）＆ププリン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ツクシ＆スピアー",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ツクシ＆ストライク",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ツクシ（２４シーズン）＆コロトック",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アカネ＆ミルタンク",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アカネ（２２シーズン）＆メブキジカ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヤナギ＆ジュゴン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "イブキ＆キングドラ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "イブキ（２４シーズン）＆ジジーロン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アンズ＆アリアドス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アンズ＆クロバット",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "イツキ＆ネイティオ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "イツキ＆ヤドラン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "カリン＆ヘルガー",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カリン＆ブラッキー",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ユウキ＆ジュカイン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスユウキ＆ラティオス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ユウキ＆オオスバメ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ユウキ（チャンピオン）＆グラードン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ユウキ（アカデミー）＆ヌマクロー",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ツツジ＆ダイノーズ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ツツジ（２３シーズン）＆デスバーン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "トウキ＆ハリテヤマ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アスナ＆コータス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アスナ（スペシャル）＆マグカルゴ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "センリ＆ケッキング",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ナギ＆ペリッパー",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ナギ＆チルタリス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "フウ＆ソルロック",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "フウ（２３シーズン）＆ジラーチ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ラン＆ルナトーン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ラン（２３シーズン）＆テッカグヤ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "フヨウ＆ヨノワール",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "フヨウ（２３シーズン）＆デスカーン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "フヨウ＆ヤミラミ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ゲンジ＆ボーマンダ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ダツラ＆カイロス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ダツラ＆テッカニン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ジュン＆エンペルト",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ジュン＆ロズレイド",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ジュン（スペシャル）＆ヘラクロス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ジュン＆フローゼル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ジュン＆ゴウカザル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ヒョウタ＆ラムパルド",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ナタネ＆ロズレイド",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ナタネ（２４シーズン）＆ダダリン",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "スモモ＆チャーレム",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マキシ＆フローゼル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "スズナ＆ユキノオー",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "スズナ＆ユキメノコ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "スズナ（２４シーズン）＆ヒヒダルマ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "オーバ＆ゴウカザル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "オーバ＆ギャロップ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ネジキ＆ドータクン",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ネジキ＆ジバコイル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ネジキ＆レジギガス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "モミ＆ハピナス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "モミ＆ホエルオー",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マイ＆ウインディ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マイ（２５シーズン）＆シェイミ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "メイ＆ジャローダ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "メイ（１９シーズン）＆デリバード",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "メイ＆フタチマル",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "メイ（スペシャル）＆シェイミ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "メイ（チャンピオン）＆メロエッタ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "メイ（アカデミー）＆シキジカ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヤーコン＆ガマゲロゲ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "フウロ＆スワンナ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "フウロ（２０シーズン）＆トゲキッス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "フウロ（２２アニバーサリー）＆トルネロス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "フウロ＆ケンホロウ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "フウロ（２５シーズン）＆ワタッコ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ハチク＆フリージオ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハチク＆トドゼルガ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アイリス＆オノノクス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アイリス（アナザー）＆サザンドラ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "アイリス（２２シーズン）＆アーゴヨン",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アイリス＆クリムガン",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アイリス（アカデミー）＆ラプラス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ホミカ＆ペンドラー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスホミカ＆ストリンダー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ホミカ＆ダストダス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "シズイ＆アバゴーラ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "シキミ＆シャンデラ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "シキミ（２４シーズン）＆ユキメノコ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "レンブ＆ローブシン",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ザクロ＆アマルルガ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "コルニ＆ルカリオ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスコルニ＆マーシャドー",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コルニ＆ルチャブル",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アルコスコルニ＆ルカリオ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "フクジ＆ウツボット",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ウルップ＆クレベース",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ズミ＆ブロスター",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ズミ（１９シーズン）＆オクタン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ガンピ＆ギルガルド",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハウ＆ライチュウ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "マジコスハウ＆カプ・コケコ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハウ＆ケケンカニ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ハウ＆ガオガエン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マーマネ＆トゲデマル",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "マーマネ＆ゴローニャ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マツリカ＆グランブル",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスマツリカ＆カプ・レヒレ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ライチ＆ルガルガン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ライチ＆メレシー",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ハプウ＆バンバドロ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "カヒリ＆ドデカバシ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ビオラ＆アメモース",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ビオラ（２３シーズン）＆ビビヨン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "クチナシ＆ペルシアン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "キョウ＆クロバット",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "アセロラ＆シロデスナ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アセロラ（２０シーズン）＆ミミッキュ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "アセロラ＆ジュペッタ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "マジコスアセロラ＆カプ・ブルル",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "アセロラ（２４シーズン）＆ブルンゲル",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "チェレン＆ムーランド",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "チェレン（チャンピオン）＆トルネロス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "チェレン＆チョロネコ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "チェレン＆レパルダス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "グリーン＆ピジョット",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスグリーン＆カメックス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "グリーン＆ウインディ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "グリーン＆ナッシー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "グリーン（チャンピオン）＆サンダー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "グリーン（アナザー）＆リザードン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "グリーン＆フーディン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "アルコスグリーン＆ピジョット",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "コトネ＆メガニウム",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "コトネ（２０シーズン）＆プリン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスコトネ＆セレビィ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コトネ＆シャワーズ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コトネ（スペシャル）＆ゴマゾウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "トウヤ（２０シーズン）＆グラエナ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコストウヤ＆ゲノセクト",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウヤ＆グレイシア",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウヤ＆ボルトロス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウヤ（チャンピオン）＆キュレム",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ＆エンブオー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ（スペシャル）＆ディアンシー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ（２２シーズン）＆オトスパス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マジコストウコ＆ビクティニ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ＆リーフィア",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ＆トルネロス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ（チャンピオン）＆テツノイサハ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トウコ＆コジョフー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "カミツレ＆ゼブライカ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスカミツレ＆ロトム",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カミツレ（アナザー）＆エモンガ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カミツレ＆バチュル",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カミツレ（２３シーズン）＆トゲチック",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスカミツレ（アナザー）＆ボルトロス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カトレア＆ランクルス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "カトレア（２１シーズン）＆ヤミラミ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "カルム＆ニャオニクス",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カルム（チャンピオン）＆ゲッコウガ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "カルム＆フォッコ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カルム＆ニンフィア",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "プリム＆オニゴーリ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ギーマ＆レパルダス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスギーマ＆サメハダー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ギーマ（アナザー）＆キリキザン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ギーマ（アナザー）＆アブソル",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "サカキ＆ミュウツー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マジコスサカキ＆ニドキング",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "サカキ（アナザー）＆ペルシアン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "サカキ＆サイドン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "サカキ＆ニドリーノ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスサカキ（アナザー）＆アクジキング",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ヒビキ＆バクフーン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスヒビキ＆ルギア",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒビキ＆ホウオウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アルコスヒビキ＆ルギア",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒビキ（チャンピオン）＆ライコウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "リーフ＆イーブイ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "リーフ（チャンピオン）＆ファイヤー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "リーフ＆ピクシー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "リーフ＆カメックス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ワタル＆カイリュー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ワタル（２１シーズン）＆ギャラドス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ワタル＆ハクリュー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アルコスワタル＆カイリュー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ワタル＆キングドラ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ワタル＆リザードン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスシロナ＆ジャラランガ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マジコスシロナ（アナザー）＆ギラティナ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "シロナ＆トリトドン",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "マジコスシロナ（アナザー２）＆ルカリオ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "アルコスシロナ＆ガブリアス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "シロナ＆ミカルゲ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "シロナ（２５シーズン）＆ミロカロス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ククイ＆ルガルガン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒガナ＆レックウザ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒガナ＆ボーマンダ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒガナ（スペシャル）＆フォクスライ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ダイゴ（２０シーズン）＆サンドパン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ダイゴ（２１アニバーサリー）＆レックウザ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスダイゴ＆デオキシス（ノーマル）",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスダイゴ＆デオキシス（アタック）",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスダイゴ＆デオキシス（スピード）",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスダイゴ＆デオキシス（ディフェンス）",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ダイゴ（スペシャル）＆ムーランド",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ダイゴ＆ユレイドル",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "アルコスダイゴ＆メタグロス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ダイゴ＆エアームド",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "オーキド＆ミュウ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "オーキド＆ニドリーノ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マーシュ＆ニンフィア",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マーシュ＆クチート",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスレッド＆リザードン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "レッド＆カビゴン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マジコスレッド（アナザー）＆ピカチュウ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "レッド（チャンピオン）＆フリーザー",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "レッド＆フシギバナ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "レッド（２５アニバーサリー）＆リザードン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "レッド（１９９６）＆ピカチュウ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ナツメ＆フーディン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ナツメ（２２シーズン）＆リーシャン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "アルコスナツメ＆フーディン",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "メリッサ＆ムウマージ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "メリッサ＆ヨノワール",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "プルメリ＆エンニュート",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "プルメリ＆ゲンガー",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "グズマ＆グソクムシャ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "グズマ（スペシャル）＆マッシブーン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "グズマ＆アリアドス",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "シトロン＆エレザード",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "シトロン＆レアコイル",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ミクリ＆ミロカロス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ミクリ（２４シーズン）＆ズガドーン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "シルバー＆ホウオウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "シルバー＆オーダイル",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "マジコスシルバー＆ニューラ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "シルバー（チャンピオン）＆バンギラス",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "シルバー＆クロバット",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "アルコスシルバー＆ホウオウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ミツル＆エルレイド",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "マジコスミツル＆サーナイト",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ミツル＆エネコロロ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ミツル＆チルタリス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ミカン＆ハガネール",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ミカン（スペシャル）＆テッカグヤ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ミカン（２２シーズン）＆デンリュウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ミカン＆コイル",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ミカン（アカデミー）＆フォレトス",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ヒカリ＆ドダイトス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ヒカリ（２１シーズン）＆マホイップ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスヒカリ＆クレセリア",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ヒカリ（２３シーズン）＆オドリドリ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒカリ＆ミノマダム",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ヒカリ＆エンペルト",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アーティ＆ハハコモリ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アーティ（２１シーズン）＆トゲピー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "セレナ（２１シーズン）＆エルフーン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスセレナ＆ジガルデ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "セレナ（チャンピオン）＆ゲッコウガ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "セレナ＆ヤヤコマ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ムサシ＆アーボック",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "アザミ＆ハブネーク",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マツバ＆ムウマージ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マツバ（２１シーズン）＆ジュペッタ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスマツバ＆ホウオウ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マツバ＆ゴース",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マツバ（アカデミー）＆バクフーン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アカギ＆パルキア",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マジコスアカギ＆ダークライ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ルザミーネ＆フェローチェ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスルザミーネ＆ネクロズマ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "ルザミーネ＆ドレディア",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ルザミーネ＆ミロカロス",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "グラジオ＆シルヴァディ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "グラジオ＆ゴルバット",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスグラジオ＆マギアナ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "グラジオ＆マニューラ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "グラジオ（アカデミー）＆ポリゴンＺ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "リーリエ（２１シーズン）＆アブリボン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "リーリエ（２１アニバーサリー）＆ルナアーラ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "リーリエ（２４アニバーサリー）＆ソルガレオ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "リーリエ（スペシャル）＆ポットデス",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "リーリエ＆キュワワー",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "リーリエ（２４シーズン）＆アシレーヌ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コジロウ＆マタドガス",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "デンジ＆レントラー",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "デンジ（２２シーズン）＆エレキブル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "デンジ＆ライチュウ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マーレイン＆ダグトリオ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ルチア＆チルタリス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ルチア（２３シーズン）＆ギャロップ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アデク＆ウルガモス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アルコスアデク＆ウルガモス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "キョウヘイ（チャンピオン）＆オノノクス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ベル＆ムシャーナ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ベル（チャンピオン）＆ビリジオン",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ベル＆シャンデラ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ユウリ（２１シーズン）＆インテレオン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ユウリ（アナザー）＆ウーラオス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ユウリ＆バチンキー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ユウリ（アナザー２）＆エースバーン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ユウリ（２５アニバーサリー）＆エースバーン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "Ｎ＆ゼクロム",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "Ｎ（２１アニバーサリー）＆レシラム",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "Ｎ（２２シーズン）＆ゾロアーク",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Ｎ＆シンボラー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスＮ＆キュレム",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "アルコスＮ＆ゾロアーク",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "Ｎ＆アーケオス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "Ｎ＆ランドロス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ハルカ（２１シーズン）＆ミミロップ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルカ（２２アニバーサリー）＆ラティアス",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスハルカ＆バシャーモ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルカ＆ホエルコ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルカ（チャンピオン）＆カイオーガ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マオ＆アマージョ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マオ（２３シーズン）＆タルップル",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マオ＆マシェード",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "フラダリ＆イベルタル",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスフラダリ＆ボルケニオン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "プラターヌ＆フシギダネ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "プラターヌ（２３シーズン）＆ゴーゴート",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ネズ＆タチフサグマ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスネズ＆ストリンダー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ネズ＆スカタンク",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ダンデ＆リザードン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "マジコスダンデ＆ムゲンダイナ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ダンデ（２１シーズン）＆バドレックス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ダンデ（アナザー）＆ドラパルト",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "アルコスダンデ＆リザードン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ダンデ＆ガマゲロゲ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "マリィ＆モルペコ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マリィ（２１シーズン）＆オーロンゲ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マリィ（２２シーズン）＆クチート",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マリィ＆ドクロッグ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "マリィ（チャンピオン）＆ファイヤー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マリィ＆ズルズキン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "マリィ＆エースバーン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マリィ＆レパルダス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マリィ（アカデミー）＆モトトカゲ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マリィ（アナザー）＆オーロンゲ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "カルネ＆サーナイト",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カルネ（スペシャル）＆ケルディオ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスカルネ＆ディアンシー",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カルネ＆ガチゴラス",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ミヅキ＆ブラッキー",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ミヅキ（スペシャル）＆ハッサム",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ミヅキ（アナザー）＆ウツロイド",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ミヅキ（チャンピオン）＆ネクロズマ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ヨウ＆アシレーヌ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ヨウ＆エーフィ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヨウ（アナザー）＆ツンデツンデ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ヨウ（チャンピオン）＆ネクロズマ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヨウ＆ジュナイパー",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "キバナ＆ジュラルドン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "キバナ（２２アニバーサリー）＆フライゴン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "キバナ＆ギガイアス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "キバナ（２５シーズン）＆サダイジャ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ゲーチス＆キュレム",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ルリナ＆カジリガメ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ルリナ（２１シーズン）＆コオリッポ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "サイトウ＆ネギガナイト",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "サイトウ（２２シーズン）＆バイバニラ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "サイトウ＆カポエラー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マツブサ＆グラードン",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "アオギリ＆カイオーガ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "スイレン＆オニシズクモ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "マジコススイレン＆カプ・テテフ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "スイレン＆ランターン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "スイレン＆パルシェン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "スイレン（２６シーズン）＆ヘイラッシャ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "カキ＆ガラガラ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "カキ＆ウインディ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ハラ＆ケケンカニ",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ロイヤルマスク＆ガオガエン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "ノボリ＆ドリュウズ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ノボリ（スペシャル）＆アギルダー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスノボリ＆シャンデラ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ノボリ＆ガントル",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "クダリ＆アーケオス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "クダリ（スペシャル）＆シュバルゴ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスクダリ＆シビルドン",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "クダリ＆ドテッコツ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "ルスワール＆エンテイ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ライヤー＆フーパ",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マジコスライヤー＆サーフゴー",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ライヤー＆ワルビアル",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "チェッタ＆ブラッキー",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "チェッタ＆コレクレー",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ドリバル＆ドンカラス",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ドリバル＆コレクレー",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ハヤト＆オオスバメ",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ハヤト＆ピジョット",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハヤト＆ヨルノズク",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カゲツ＆アブソル",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ホップ＆ザマゼンタ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ホップ（チャンピオン）＆サンダー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ホップ＆ゴリランダー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ホップ＆バチンウニ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ホップ＆ザシアン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "オニオン＆ゲンガー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "オニオン（２２シーズン）＆パンプジン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "コクラン＆ムクホーク",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ソニア（スペシャル）＆アマージョ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ソニア（アカデミー）＆アーマーガア",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "コウキ＆ブースター",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コウキ＆ドダイトス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "リョウ＆ビークイン",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "キクノ＆カバルドン",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ゴヨウ＆キリンリキ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ビート＆ブリムオン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ビート（チャンピオン）＆フリーザー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "ビート＆インテレオン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マジコスビート＆テツノブジン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ビート＆クチート",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ビート（アナザー）＆ギャロップ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ハンサム＆グレッグル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カガリ＆バクーダ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "サトシ＆ピカチュウ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ラニュイ＆ランドロス",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ナナセ（かんこうきゃく）＆サンドパン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マクワ＆セキタンザン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マクワ＆ガメノデス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "メロン＆ラプラス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "メロン＆モスノウ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "マサル＆ゴリランダー",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マサル＆レイスポス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マサル（２４シーズン）＆ヨクバリス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "サヨコ（オカルトマニア）＆ゴースト",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヒュウ＆バッフロン",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ヒュウ＆ケンホロウ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ヒュウ（アカデミー）＆チャオブー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "アクロマ＆ギギギアル",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "キリカ（ふりそで）＆マリルリ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "サナ＆ブリガロン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "サナ（スペシャル）＆クレッフィ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "サナ＆エネコロロ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "サナ＆ニンフィア",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "リラ＆カビゴン",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マチエール＆クロバット",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ボールガイ＆モロバレル",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "マジコスボールガイ＆マルマイン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ボールガイ＆ビリリダマ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "セキ＆リーフィア",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "セキ＆シャワーズ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "セキ（スペシャル）＆ガチグマ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カイ＆グレイシア",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カイ＆ブースター",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カイ（スペシャル）＆ゾロアーク",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カイ（２５アニバーサリー）＆バクフーン",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ミナキ＆スイクン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ローズ＆ダイオウドウ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        -2,
+        3
+      ]
+    },
+    {
+      "name": "ローズ＆ニャイキング",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "オリーヴ＆ダストダス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ゴジカ＆シンボラー",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ドラセナ＆ドラミドロ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ネモ＆パーモット",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ネモ＆ルガルガン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "マジコスネモ＆サケブシッポ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ネモ＆クワッス",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ラジュルネ＆レジアイス",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "キリヤ＆ルガルガン",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "リッカ＆ブースター",
+      "region": "パシオ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "アポロ＆ヘルガー",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "アテナ＆アーボック",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ラムダ＆マタドガス",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ランス＆ゴルバット",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        -1,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "クロツグ＆レジギガス",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ケイト＆エアームド",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ショウ＆ダイケンキ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ショウ＆マネネ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "テル＆ジュナイパー",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "テル（アカデミー）＆ウォーグル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アロエ＆ミルホッグ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "リュウキ＆バクガメス",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ボタン＆ニンフィア",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "アユミ＆イーブイ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "イブ（ポケモンごっこ）＆イーブイ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カレン（ふりそで）＆ペロリーム",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ナンジャモ＆ハラバリー",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ナンジャモ＆カイデン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ナンジャモ（２４シーズン）＆ハバタクカミ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ナンジャモ＆タイカイデン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マジコスナンジャモ＆タケルライコ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "グルーシャ＆ハルクジラ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "グルーシャ＆ツンベアー",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カケル＆ピカチュウ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "カケル＆イーブイ",
+      "region": "カントー",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "チュウスケ（ポケモンごっこ）＆ピカチュウ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ゲン＆ルカリオ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "オモダカ＆キラフロル",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "ティエルノ＆シザリガー",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ティエルノ＆ファイアロー",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ダリア＆ルンパッパ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ウォロ＆トゲピー",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ウォロ＆フカマル",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ウォロ（アナザー）＆ギラティナ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ジニア＆リキキリン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "チリ＆ドオー",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "チリ＆ナマズン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "チリ（２６シーズン）＆ヌオー",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "チリ＆イダイナキバ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハチクマン＆ゾロアーク",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ジュジュベ＆ココロモリ",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ポピー＆デカヌチャン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ポピー（２５シーズン）＆ハガネール",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ポピー＆テツノワダチ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        3,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "アオキ＆ノココッチ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アオキ＆パフュートン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アオキ（スペシャル）＆カラミンゴ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "アオキ（スペシャル２）＆ネッコアラ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カブ＆マルヤクデ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カブ＆コータス",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カブ＆キュウコン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "カブ（アカデミー）＆バクーダ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "クララ＆ヤドラン",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "セイボリー＆ヤドキング",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コゴミ＆キノガッサ",
+      "region": "ホウエン",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ペパー＆マフィティフ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ペパー＆コジオ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ペパー（２５シーズン）＆スコヴィラン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ペパー＆ホシガリス",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ルミタン＆ビリジオン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "パキラ＆ファイアロー",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "シジマ＆ニョロボン",
+      "region": "ジョウト",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "トロバ＆フラージェス",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ピーニャ＆ドドゲザン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "クラベル＆ウェーニバル",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "クラベル（アナザー）＆ニャオハ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ビワ＆コノヨザル",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ジーナ＆グレイシア",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "デクシオ＆エーフィ",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ヤロー＆ワタシラガ",
+      "region": "ガラル",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "シオネ（ふりそで）＆キルリア",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "メロコ＆グレンアルマ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "シュウメイ＆ブロロローム",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "アオイ＆コライドン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "アオイ＆ニャオハ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "アオイ（２６アニバーサリー）＆テラパゴス",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルト＆ミライドン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルト＆グルトン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルト＆ホゲータ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ハルト（２６アニバーサリー）＆オーガポン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "オルティガ＆バウッツェル",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "タロ＆グランブル",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "タロ＆マホイップ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "タロ（２５シーズン）＆エルフーン",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "イリマ＆デカグース",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        3,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "マサヒト（やまおとこ）＆シガロコ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "バンジロウ＆ウルガモス",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "ネルケ＆モロバレル",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ナリヤ・オーキド＆ナッシー",
+      "region": "アローラ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "ゼイユ＆ヤバソチャ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "ゼイユ＆クルマユ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコスゼイユ＆モモワロウ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "スグリ＆カミツオロチ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "マジコススグリ＆オオタチ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "ヒナツ＆ドレディア",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ヨネ＆ゴンベ",
+      "region": "シンオウ",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "サザレ＆ガーディ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "サザレ（アカデミー）＆ヨルノズク",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "デント＆ヤナッキー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ポッド＆バオッキー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "コーン＆ヒヤッキー",
+      "region": "イッシュ",
+      "calc_type": "immutable",
+      "stats": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ミモザ＆ドヒドイデ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "アサミ（ふりそで）＆フレフワン",
+      "region": "カロス",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "コルサ＆ウソッキー",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "ハッサク＆セグレイブ",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "カキツバタ＆ブリジュラス",
+      "region": "パルデア",
+      "calc_type": "immutable",
+      "stats": [
+        -1,
+        3,
+        0,
+        0
+      ]
+    }
+  ]
+}
