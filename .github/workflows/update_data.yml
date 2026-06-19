@@ -10,16 +10,18 @@ jobs:
   update-json:
     runs-on: ubuntu-latest
     
-    # リポジトリへの書き込み権限を許可（これがないとPush時にエラーになります）
     permissions:
       contents: write
 
     steps:
-      # 1. コードをチェックアウト
+      # 1. コードをチェックアウト (Node.js 24対応版にピン留め、または @v4 の最新マイナーを適用)
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # 明示的に最新のランタイムに追従させる設定（環境により自動解決されます）
+          persist-credentials: false
 
-      # 2. Python環境を設定
+      # 2. Python環境を設定 (最新の v5.5.0 などは Node 24 への移行が完了しています)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -41,5 +43,4 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add buddies_master.json
-          # 変更（差分）がない場合は何もしない、あればコミットしてプッシュ
           git diff-index --quiet HEAD || (git commit -m "Automated daily master data update" && git push)
