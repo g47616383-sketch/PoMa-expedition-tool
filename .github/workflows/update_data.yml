@@ -1,0 +1,45 @@
+name: Daily Spreadsheet Sync
+
+on:
+  schedule:
+    # 毎日日本時間 AM 5:00（世界標準時 UTC PM 20:00）に実行
+    - cron: '0 20 * * *'
+  workflow_dispatch: # GitHub上のActionsタブからいつでも手動実行できるボタン
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    
+    # リポジトリへの書き込み権限を許可（これがないとPush時にエラーになります）
+    permissions:
+      contents: write
+
+    steps:
+      # 1. コードをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Python環境を設定
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3. データの取得に必要な requests ライブラリをインストール
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # 4. スクリプトを実行して最新の buddies_master.json を生成
+      - name: Run data sync script
+        run: python sync_data.py
+
+      # 5. 生成されたファイルに変更があれば、自動でGitHubにコミットしてPush
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add buddies_master.json
+          # 変更（差分）がない場合は何もしない、あればコミットしてプッシュ
+          git diff-index --quiet HEAD || (git commit -m "Automated daily master data update" && git push)
